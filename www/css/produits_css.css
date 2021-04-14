@@ -1,0 +1,84 @@
+
+        
+        body{
+        background:#475d62 url(../../assets/img/star-sky.jpg);
+        color:white;
+        }
+        table { /*affichage tableau*/
+            margin: 18px 0;
+            width: 100%;
+            border-collapse: collapse;
+        } 
+        table th,
+        table td {
+            text-align: left;
+            padding: 6px;
+        }
+        table,
+        th,
+        td {
+
+            border: 1px solid #000;
+        }
+        caption{ /*/affichage titre tableau*/
+            font-weight: bold;
+            font-size: 200%;
+            padding-top: .75rem;
+            padding-bottom: .75rem;
+            color: #6c757d;
+            caption-side: top;
+            text-align: center;
+        }
+        input{ /*affichage boutton*/
+            padding:6px 0 6px 0;
+            font:bold 13px Arial;
+            background:#478bf9;
+            color:#fff;
+            border-radius:2px;
+            width:150px;
+            border:none;
+        }
+        .affiche{
+            width: 15%;
+        }
+        .boutton{
+    	background: #214a80;
+        border: none;
+        border-radius: 4px;
+        box-shadow: none;
+        text-shadow: none;
+        outline: none;
+
+        }
+        table.affiche tr,
+        table.affiche td,
+        table.affiche{
+            border: unset;
+        }
+        .div1{
+            width:250px;
+            height:120px;
+            display:block;
+            float:left;
+        }
+        .div2{
+            padding-top:40px;
+            width:250px;
+            height:50px;
+            display:block;
+            float:right;
+        }
+        .label{
+        	white-space: nowrap;
+        	/*permet de mettre le label en 1 ligne*/
+        }
+        .selectpicker{
+        border-radius:3px;
+        border:1px solid #cccccc;
+        background:#cccccc;
+
+        }
+        .boutton_deco{
+            margin-top: 50px;
+            margin-bottom: 100px;    
+        }

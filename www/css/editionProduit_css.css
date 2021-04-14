@@ -1,0 +1,62 @@
+
+        
+        body{
+        background:#475d62 url(../../assets/img/star-sky.jpg);
+        color:white;
+        text-align: center;
+        text
+        }
+        form{
+        	
+        }
+
+        table th,
+        table td {
+        	
+            text-align: left;
+            padding: 6px;
+            border-color: transparent;
+        }
+        table,
+        th,
+        td {
+
+            border: 1px solid #000;
+        }
+        input{	/*affichage des field d'inputs*/
+        	border-radius: 5px;
+        	border:10px;
+        }
+
+        h2{
+        	font-weight: bold;
+    		font-size: 200%;
+    		padding-top: .75rem;
+    		padding-bottom: .75rem;
+    		color: #6c757d;
+    		caption-side: top;
+    		text-align: center;
+
+        }
+        input.taille{ /*affichage boutton*/
+            padding:6px 0 6px 0;
+            font:bold 13px Arial;
+            background:#478bf9;
+            color:#fff;
+            border-radius:2px;
+            width:150px;
+            border:none;
+        }
+        }
+        .boutton{
+    	background: #214a80;
+        border: none;
+        border-radius: 4px;
+        box-shadow: none;
+        text-shadow: none;
+        outline: none;
+
+        }
+        table.tableau{
+        	margin: auto;
+        }

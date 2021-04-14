@@ -1,0 +1,58 @@
+	table input{ /* agit sur les boutons qui sont dans la table, mise en page*/
+		padding:6px 0 6px 0;
+		border-radius:20px;
+		width:350px;
+		height:120px;	
+		background: #214a80;
+	    border: none;
+	    border-radius: 4px;
+	    padding: 11px;
+	    box-shadow: none;
+	    text-shadow: none;
+	    outline: none;
+
+	}
+
+	th,td{
+		padding: 50px; /*écart entre les boutons*/
+		width: 20%;
+		
+		background-color: #1e2833;	
+
+	}
+	input{ /* agit sur le bouton de déconnexion pour sa mise en page*/ 
+		padding:6px 0 6px 0;
+		font:bold 15px Arial;
+		background:#478bf9;
+		color:#fff;
+		border-radius:2px;
+		width:150px;
+		height:40px;
+		border:none;
+
+	}
+	body{
+		background:#475d62 url(../../assets/img/star-sky.jpg);
+		margin:0px !important;
+	}
+
+	.btn-block{
+	background: #214a80;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 26px;
+    text-shadow: none;
+    outline: none;
+	}
+
+.bouttons{
+	margin-top: 15%;
+	text-align: center;
+
+}
+.tableau{	
+	background-color: #1e2833;
+	width: 100%
+}
